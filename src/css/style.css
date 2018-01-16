@@ -13,7 +13,7 @@ html, html * {
 
 .mg{
     margin-top:80px;
-    background: linear-gradient(180deg,#66a5ff,#0069ff);
+    background: linear-gradient(180deg,#83a33f,#37826f);
 }
 
 .m-title{
@@ -55,10 +55,57 @@ padding-right: 20px;
 }
 
 .triangolo {
-width: 0;
-height: 0;
-line-height: 0px;
-border-top: 15px solid #0069ff;
-border-left: 15px solid transparent;
-border-right: 15px solid transparent;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 12.5px 21.7px 12.5px;
+  border-color: transparent transparent #007bff transparent;
+  line-height: 0px;
+  _border-color: #000000 #000000 #007bff #000000;
+  _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+}
+
+/* PARTICLES */
+#particles-js {
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: 0.48;
+}
+/* PARTICLES */
+#particles-js canvas{
+	max-height:470px;
+		z-index: -1;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/oly.jpeg");
+
+    /* Set a specific height */
+    height: 150px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo-1 {
+animation-delay: .05s;
+}
+#logo-2 {
+animation-delay: .10s;
+}
+#logo-3 {
+animation-delay: .15s;
+}
+#logo-4 {
+animation-delay: .20s;
+}
+#logo-5 {
+animation-delay: .25s;
 }
